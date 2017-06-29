@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>SJCE placement statistics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style1.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<script type="text/javascript" src="scr1.js">
+</script>
+</head>
+<body>
+
+<!-- Sidebar/menu 
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Placement<br>Window</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#year" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Year wise</a> 
+    <a href="#company" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Company wise</a> 
+    <a href="#gender" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Gender wise</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    
+  </div>
+</nav>-->
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Welcome to Statistics</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h4 class="w3-jumbo"><b>SJCE Placements</b></h4><a href="placementpage.php">Go back.</a>
+    
+    <hr style="width:50px;border:5px solid #1E90FF" class="w3-round">
+  </div>
+  
+  <!-- Services -->
+  <div class="w3-container" id="year" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Year wise placement.</b></h1>
+    <hr style="width:50px;border:5px solid #1E90FF" class="w3-round">
+    <p> Year and Category-wise Statistics <br/> </p>
+    <!--<button type="button" id="year" onclick="yearbuttonhandler();">take me there</button>-->
+	<a href="year_and_company.php">Show me</a>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="company" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Student performance.</b></h1>
+    <hr style="width:50px;border:5px solid #1E90FF" class="w3-round">
+    <p>Our students perform exceptionally well!<br/></p>
+    <a href="gender_and_students.php">Show me</a>
+    <!--<button type="button" id="company" onclick="companybuttonhandler();">take me there</button>-->
+  </div>
+
+  <!--<div class="w3-container" id="gender" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Gender wise statistics.</b></h1>
+    <hr style="width:50px;border:5px solid #1E90FF" class="w3-round">
+    <p>Equal opportunities are provided to students ,irrespective of caste or gernder. </p>
+    
+    <button type="button" id="gender" onclick="genderbuttonhandler();">take me there</button>
+  </div>
+
+
+  <!-- Packages / Pricing Tables
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
+    <hr style="width:50px;border:5px solid #1E90FF" class="w3-round">
+    <p> Companies are classified on the basis of salary they offer.</p>
+  </div>-->
+
+  <!--<div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Open Dream</li>
+        <li class="w3-padding-16">National Instruments</li>
+        <li class="w3-padding-16">Cisco</li>
+        <li class="w3-padding-16">Microsoft</li>
+        <li class="w3-padding-16">Avaya</li>
+        <li class="w3-padding-16">Intuit</li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Dream</li>
+        <li class="w3-padding-16">Netapp</li>
+        <li class="w3-padding-16">LinkedIn</li>
+        <li class="w3-padding-16">Myntra</li>
+        <li class="w3-padding-16">Commvault</li>
+        <li class="w3-padding-16">SAP</li>
+      </ul>
+    </div>
+  </div>-->
+  
+  
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by CS department></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>

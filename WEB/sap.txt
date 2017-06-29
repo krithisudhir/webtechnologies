@@ -1,0 +1,92 @@
+APTITUDE
+1. If a 6 o'clock the clock strikes 6times. The difference between the first and the last strike is 30 secs. Find the time taken when it strikes 12.
+Ans 54sec( I think)
+
+2. While traveling at uniform speed. U read a two digit no. after one hr the number is reversed order. After another hour the number read is same two digit number. What is the average speed?
+
+3. If a=1,b=2...z=26 what is p+q+r?
+a)52 b)26c) 5 d) 35
+ans a
+
+4. if z=1,y=2...a=26 what is the sum?
+a)351 b)450 c)260 d)150
+ans a
+
+5. If a 4inch cube is painted on all the sides. If it is cut into 1 inch cubes, how many cubes are not painted at all.
+
+6. What is the value of (0.75*0.75*.075-0.001) / (0.75*.75-0.075+0.01)
+a)0.845 b)2.45 c)0.75 d)1
+ans a
+
+7. Abode means
+a)  b)dwelling
+ans b
+
+8. Ovation
+a)applause b)guesture c) d)
+ans a
+
+9. If body: helmet:: finger:?
+a)nail b)glove c)cannot be determined d)
+
+TECHNICAL
+
+1. A super key is
+
+2. Find the odd one out
+a)SMTP b)WAP c)SAP d)ARP
+
+3. Find the odd one out
+a)Oracle b)LINUX c)ingress d)DB/2
+ans b
+
+4. If GRANT is used to grant privileges to perform the queries what command is used to remove the permissions?
+Ans revoke cmd
+
+5. what is the output of the following
+#define AREA(x)  (3.14*x*x)
+int main()
+{
+float a,r1=6.25r2=2.5;
+a=AREA(r1)
+printf("\n the area of the circle is %f",a);
+a=AREA(r2)
+printf("\n the area of the circle is %f",a);
+}
+
+6. Find if any error in the code
+main()
+{
+int i=1;
+for(;;)
+{
+printf("%d",i++);
+if (i>10)
+break;
+}
+}
+a)two semicolon
+b)for should be replaced by a while loop
+c)complilation error
+d)no error
+
+7. when is index of a table used
+a)when table is less range of values
+b)when table is used frequently
+c) when the table is small
+d)when we use join statement with select and where clause
+
+8. What is the output of the following
+main()
+{
+int i=-3, j=2, m, k=0;
+m=++i && ++j || ++k
+printf("%d %d %d %d", i, j, m, k);
+}
+a)-2 3 1 1 b) -2 3 0 1 c) -3 2 1 1 d)2 -3 0 1
+
+Note all are not multi choice ans. Some questions have descriptive answers.
+LEARN SQL, DBMS, puzzles type.
+
+I got thru CTS, Sap Labs.. I am joining sap labs nxt yr, thanks to everyone. Happy new year and may all your aspirations come true...
+From my heart I thank all the people who have contributed to this site.

@@ -1,0 +1,287 @@
+1. Which of the following about the following two Declaration is true
+i) int *F()
+ii) int (*F)()
+Choice:
+a) Both are identical
+b) The first is a correct declaration and the second is wrong
+c) The first declaration is a function returning a Pointer to an Integer and the second is a pointer to function Returning int
+d) Both are different ways of declaring pointer to a function
+Answer: c
+
+2. What are the values printed by the following program?
+#define dprintf(expr) printf(#expr "=%d\n", expr)
+main()
+{
+int x=7;
+int y=3;
+printf(x/y);
+}
+
+Choice:
+a) #2 = 2 b) expr=2 c) x/y=2 d) none
+Answer: c 
+
+3. Which of the following is true of the following program?
+main ()
+{
+char *c;
+int *p;
+c =(char *)malloc(100);
+p=(int *)c;
+free(p);
+}
+Ans: The code functions properly releasing all the
+memory
+allocated
+
+4. Output of the following.
+main()
+{
+int i;
+char *p;
+i=0X89;
+p=(char *)i;
+p++;
+printf("%x %x\n",p,i);
+}
+*
+Ans: 0X8A
+
+5. Which of the following is not a ANSI C language keyword?
+Ans: Function.
+
+6. When an array is passed as parameter to a function, which of the following statement is correct
+Choice:
+a) The function can change values in the original array
+b) In C parameters are passed by value. The function cannot change the original value in the array
+c) It results in compilation error when the function tries to access the elements in the array
+d) Results in a run time error when the function tries to access the elements in the array
+Answer: a
+
+7. The type of the controlling expression of a switch statement cannot be of the type
+a) Int 
+b) Char 
+c) Short 
+d) Float 
+e) None
+Answer: d
+
+8. What is the value of the expression (3^6) + (a^a)?
+a) 3
+
+b) 5
+
+c) 6
+
+d) a+18
+
+e) None
+Answer: b
+
+9. What is the value assigned to the variable X if b is 7? X = b>8? b <<3: b>4? b>>1: b;
+a) 7
+
+b) 28
+
+c) 3
+
+d) 14
+
+e) None
+Ans: 3
+
+10. Which is the output produced by the following program 
+main()
+{
+int n=2;
+printf("%d %d\n", ++n, n*n);
+}
+a) 3, 6
+
+b) 3, 4
+
+c) 2, 4
+
+d) cannot determine
+Answer: b) 3,4
+
+11. What is the output of the following program? 
+int x= 0x65;
+main()
+{
+char x;
+printf("%d\n",x);
+}
+
+a) Compilation error 
+b) 'A' 
+c) 65 
+d) Unidentified
+
+12. What is the output of the following program?
+main()
+{
+int a=10;
+int b=6;
+if(a=3)
+b++;
+printf("%d %d\n",a,b++);
+}
+a) 10, 6
+
+b) 10, 7
+
+c) 3, 6
+
+d) 3, 7
+
+e) none
+Answer: d) 3,7
+
+13. What can be said of the following program? 
+main ()
+{
+enum Months {JAN =1,FEB,MAR,APR};
+Months X = JAN;
+if(X==1)
+{
+printf("Jan is the first month");
+}
+}
+
+a) Does not print anything
+b) Prints: Jan is the first month
+c) Generates compilation error
+d) Results in runtime error
+Answer: b 
+
+14. What is the output of the following program?
+main()
+{
+char *src = "Hello World";
+char dst[100];
+strcpy(src, dst);
+printf("%s",dst);
+}
+strcpy(char *dst,char *src)
+{
+while(*src) *dst++ = *src++;
+}
+a) "Hello World" 
+b)"Hello" 
+c)"World" 
+d) NULL 
+e) unidentified
+Answer: d) NULL
+
+15. What is the output of the following program?
+main()
+{
+int l=6;
+switch(l)
+{ default : l+=2;
+case 4: l=4;
+case 5: l++;
+break;
+}
+printf("%d",l);
+}
+a) 8
+
+b) 6
+
+c) 5
+
+d) 4
+
+e) none
+Answer: c) 5
+
+16. What is the output of the following program?
+main()
+{
+int x=20;
+int y=10;
+swap(x,y);
+printf("%d %d",y,x+2);
+}
+swap(int x,int y)
+{
+int temp;
+temp =x;
+x=y;
+y=temp;
+}
+
+a)10, 20
+
+b) 20, 12
+
+c) 22, 10
+
+d)10, 22
+
+e)none
+Answer: d) 10, 22
+
+17. What is the output of the following problem?
+#define INC(X) X++
+main()
+{
+int X=4;
+printf("%d",INC(X++));
+}
+a) 4
+
+b) 5
+
+c) 6
+
+d) compilation error
+
+e) runtime error
+Answer: d) compilation error
+
+18. What can be said of the following?
+struct Node {
+char *word;
+int count;
+struct Node left;
+struct Node right;
+}
+
+a) Incorrect definition
+b) Structures cannot refer to other structure
+c) Structures can refer to themselves. Hence the statement is OK
+d) Structures can refer to maximum of one other structure
+Answer :c)
+
+19. What is the size of the following union?
+Assume that the size of int =2, size of float =4 and size of char =1.
+Union Tag{
+int a;
+flaot b;
+char c;
+};
+
+ 
+
+a) 2
+
+b) 4
+
+c) 1
+
+d) 7
+
+20) What is the output of the following program? (has been used to indicate a space)
+main()
+{
+char s[]="Hello,.world";
+printf(%15.10s",s);
+}
+
+a) Hello, World...
+b)....Hello,. or
+c) Hello,. or....
+d) None of the above

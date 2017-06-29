@@ -1,0 +1,119 @@
+1] Write A Haiku Describing Possible Methods For Predicting Search Traffic Seasonality.
+
+* Math world's Search Engine
+* Seemed Slowed This May. Undergrads
+* Prepping For Finals.
+
+2]
+
+1
+1 1
+2 1
+1 2 1 1
+1 1 1 2 2 1
+What's The Next Line?
+
+312211. This Is The "Look And Say" Sequence In Which Each Term After The First Describes The Previous Term: One 1 (11); Two 1s (21); One 2 And One 1 (1211); One 1, One 2, And Two 1's (111221); And So On. See The Look And Say Sequence Entry On Mathworld For A Complete Write-up And The Algebraic Form Of A Fascinating Related Quantity Known As Conway's Constant.
+
+3] You Are In A Maze Of Twisty Little Passages, All Alike. There Is A Dusty Laptop Here With A Weak Wireless Connection. There Are Dull, Lifeless Gnomes Strolling Around. What Dost Thou Do?
+
+A) Wander Aimlessly, Bumping Into Obstacles Until You Are Eaten By A Grue.
+B) Use The Laptop As A Digging Device To Tunnel To The Next Level.
+C) Play Mporpg Until The Battery Dies Along With Your Hopes.
+D) Use The Computer To Map The Nodes Of The Maze And Discover An Exit Path.
+E) Email Your Resume To Google, Tell The Lead Gnome You Quit And Find Yourself In Whole Different World [Sic].
+
+In General, Make A State Diagram. However, This Method Would Not Work In Certain Pathological Cases Such As Say, A Fractal Maze. For An Example Of This And Commentary, See Ed Pegg's Column About State Diagrams And Mazes.
+
+4] What's Broken With Unix?
+Their Reproductive Capabilities. How Would You Fix It?
+
+5] On Your First Day At Google, You Discover That Your Cubicle Mate Wrote The Textbook You Used As A Primary Resource In Your First Year Of Graduate School. Do You:
+
+A) Fawn Obsequiously And Ask If You Can Have An Autograph.
+B) Sit Perfectly Still And Use Only Soft Keystrokes To Avoid Disturbing Her Concentration
+C) Leave Her Daily Offerings Of Granola And English Toffee From The Food Bins.
+D) Quote Your Favorite Formula From The Textbook And Explain How It\'s Now Your Mantra.
+E) Show Her How Example 17b Could Have Been Solved With 34 Fewer Lines Of Code.
+
+6] Which Of The Following Expresses Google\'s Over-arching Philosophy?
+
+A) "I'm Feeling Lucky"
+B) "Don't Be Evil"
+C) "Oh, I Already Fixed That"
+D) "You Should Never Be More Than 50 Feet From Food"
+E) All Of The Above
+
+7] How many different ways, Can You Colour An Icosahedron With One Of Three Colours On Each Face?
+
+For An Asymmetric 20-sided Solid, There Are Possible 3-colorings. For A Symmetric 20-sided Object, The Polya Enumeration Theorem Can Be Used To Obtain The Number Of Distinct Colorings. Here Is A Concise Mathematical Implementation:
+What Colors Would You Choose?
+
+8] This Space Left Intentionally Blank. Please Fill It With Something That Improves Upon Emptiness.
+For Nearly 10,000 Images Of Mathematical Functions, See The Wolfram Functions Site Visualization Gallery.
+
+9] On An Infinite, Two-dimensional, Rectangular Lattice Of 1-ohm Resistors, What Is The Resistance Between Two Nodes That Are A Knight's Move Away?
+
+This Problem Is Discussed In J. C serti's 1999 Arxiv Preprint. It Is Also Discussed In The Mathematical Guidebook For Symbolics, The Forthcoming Fourth Volume In Michael Trott's Guidebook Series, The First Two Of Which Were Published Just Last Week By Springer-verlag. The Contents For All Four Guidebooks, Including The Two Not Yet Published, Are Available On The Dvd Distributed With The First Two Guidebooks.
+
+10] It's 2 pm On A Sunny Sunday Afternoon In The Bay Area. You're Minutes From The Pacific Ocean, Redwood Forest Hiking Trails And World Class Cultural Attractions. What Do You Do?
+
+11] In Your Opinion, What Is The Most Beautiful Math Equation Ever Derived?
+There Are Obviously Many Candidates. The Following List Gives Ten Of The Authors' Favorites:
+
+1. Archimedes' Recurrence Formula:
+2. Euler Formula:
+3. Euler-mascheroni Constant:
+4. Riemann Hypothesis: And Implies
+5. Gaussian Integral:
+6. Ramanujan's Prime Product Formula:
+7. Zeta-regularized Product:
+8. Mandelbrot Set Recursion:
+9. Bbp Formula:
+10. Cauchy Integral Formula:
+
+12] Which Of The Following Is Not An Actual Interest Group Formed By Google Employees?
+A. Women's Basketball B. Buffy Fans C. Cricketers D. Nobel Winners E. Wine Club
+
+13] What Will Be The Next Great Improvement In Search Technology?
+
+14] What Is The Optimal Size Of A Project Team, Above Which Additional Members Do Not Contribute Productivity Equivalent To The Percentage Increase In The Staff Size?
+
+A) 1 B) 3 C) 5 D) 11 E) 24
+
+15] Given A Triangle ABC, How Would You Use Only A Compass And Straight Edge To Find A Point P Such That Triangles ABP, ACP And BCP Have Equal Perimeters? (Assume That ABC Is Constructed So That A Solution Does Exist.)
+
+This Is The Isoperimetric Point, Which Is At The Center Of The Larger Soddy Circle. It Is Related To Apollonius' Problem. The Three Tangent Circles Are Easy To Construct: The Circle Around Has Diameter, Which Gives The Other Two Circles. A Summary Of Compass And Straightedge Constructions For The Outer Soddy Circle Can Be Found In "Apollonius' Problem: A Study Of Solutions And Their Connections" By David Gisch And Jason M. Ribando.
+
+16]
+{
+Long L=1024;
+Int I=1;
+While(L>=1)
+{ L=L/2;
+I=I+1;
+}
+}
+
+A) 8 B) 11 C) 10 D) 100
+Ans: B
+
+17] This Question Is Based On The Complexity.
+
+Q3) s->AB
+A->a
+B->bbA
+Which One Is False For Above Grammar.
+
+18] Some Tree Were Given & The Question Is To Fine Preorder Traversal.
+
+19] One C++ Program, To Find Output Of The Program.
+
+20] If The Mean Failure Hour Is 10,000 And 20 Is The Mean Repair Hour. If The Printer Is Used By 100 Customer, Then Find The Availability.
+
+1)80%
+2)90%  
+3)98%
+4)99.8%
+5)100%
+
